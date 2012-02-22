@@ -26,7 +26,3 @@ function onMouse(horizontalSpeed, verticalSpeed){
 				"\x00\x00\x00\x00\x00\x00\x00\x00"
 				)
 }
-
-CF.userMain = function() {
-	
-}

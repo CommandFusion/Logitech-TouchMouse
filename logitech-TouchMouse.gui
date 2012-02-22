@@ -440,10 +440,10 @@
         </action>
       </actions>
       <inactive s="0">
-        <img x="5" y="-1" w="28" h="28">1329903935_keyboard.png</img>
+        <img x="5" y="-1" w="28" h="28">keyboard_icon.png</img>
       </inactive>
       <active s="0">
-        <img x="5" y="-1" w="28" h="28">1329903935_keyboard.png</img>
+        <img x="5" y="-1" w="28" h="28">keyboard_icon.png</img>
       </active>
     </btn>
   </subpage>

@@ -1,0 +1,860 @@
+<gui>
+  <properties>
+    <project>Logitech TouchMouse</project>
+    <designer>G. Nucatola</designer>
+    <size>
+      <portrait width="320" height="480" />
+      <landscape width="480" height="320" />
+    </size>
+    <imagefolder>
+    </imagefolder>
+    <debug loaderrors="0" connectionerrors="0" />
+    <devices>
+      <device name="G2M iPad Dev">9869B9F35ADA54E672B351984458A594</device>
+    </devices>
+  </properties>
+  <systems>
+    <system name="mouseUDP" ip="192.168.1.120" origin="10210" port="4026" protocol="udp" alwayson="1" accept="0" acceptBroadcasts="0" ssl="0" maxconnections="0" heartbeatRx="" heartbeatTx="" heartbeatMode="-1" eom="" connectionStatus="0" disconnectionStatus="0">
+      <cmd name="LeftMouseDown" folder="Mouse Buttons">\x00\x00\x00\x05\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="LeftMouseUp" folder="Mouse Buttons">\x00\x00\x00\x04\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="RightMouseDown" folder="Mouse Buttons">\x00\x00\x00\x05\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="RightMouseUp" folder="Mouse Buttons">\x00\x00\x00\x04\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="MiddleMouseDown" folder="Mouse Buttons">\x00\x00\x00\x05\x00\x00\x01\x02\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="MiddleMouseUp" folder="Mouse Buttons">\x00\x00\x00\x04\x00\x00\x01\x02\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="ReleaseFinger" folder="Mouse Buttons">\x00\x00\x00\x04\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseA" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x61\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseA" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x41\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseB" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x62\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseB" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x42\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseC" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x63\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseC" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x43\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseD" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x64\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseD" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x44\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseE" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x65\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseE" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x45\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseF" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x66\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseF" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x46\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseG" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x67\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseG" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x47\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseH" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x68\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseH" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x48\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseI" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x69\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseI" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x49\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseJ" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x6A\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseJ" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x4A\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseK" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x6B\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseK" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x4B\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseL" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x6C\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseL" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x4C\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseM" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x6D\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseM" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x4D\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseN" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x6E\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseN" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x4E\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseO" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x6F\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseO" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x4F\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseP" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x70\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseP" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x50\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseQ" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x71\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseQ" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x51\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseR" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x72\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseR" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x52\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseS" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x73\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseS" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x53\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseT" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x74\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseT" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x54\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseU" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x75\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseU" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x55\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseV" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x76\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseV" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x56\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseW" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x77\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseW" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x57\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseX" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x78\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseX" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x58\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseY" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x79\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseY" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x59\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="lowerCaseZ" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x7A\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="upperCaseZ" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x5A\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Enter" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x0A\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="0" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x30\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="1" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x31\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="2" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x32\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="3" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x33\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="4" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x34\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="5" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x35\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="6" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x36\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="7" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x37\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="8" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x38\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="9" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x39\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="WinUp" target="d1" value="0" folder="Modifier Keys">\x00\x00\x00\x01\x00\x00\x00\x37\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="WinDown" target="d1" value="1" folder="Modifier Keys">\x00\x00\x00\x02\x00\x00\x00\x37\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="CtrlDown" target="d2" value="1" folder="Modifier Keys">\x00\x00\x00\x02\x00\x00\x00\x3b\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="CtrlUp" target="d2" value="0" folder="Modifier Keys">\x00\x00\x00\x01\x00\x00\x00\x3b\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="BackspaceUp" folder="Modifier Keys">\x00\x00\x00\x01\x00\x00\x00\x33\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="BackspaceDown" folder="Modifier Keys">\x00\x00\x00\x02\x00\x00\x00\x33\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="AltDown" target="d3" value="1" folder="Modifier Keys">\x00\x00\x00\x02\x00\x00\x00\x3a\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="AltUp" target="d3" value="0" folder="Modifier Keys">\x00\x00\x00\x01\x00\x00\x00\x3a\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Minus" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x2D\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Slash" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x2F\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Colon" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x3A\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Semicolon" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x3B\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="OpenBracket" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x28\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="ClosedBracket" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x29\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Euro" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x20\xAC\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Ampersand" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x26\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="At" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x40\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="QuotationMark" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x22\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Period" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x2E\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Comma" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x2C\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="QuestionMark" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x3F\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="ExclamationMark" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x21\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Apostrophe" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x27\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="OpenSquareBracket" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x5B\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="ClosedSquareBracket" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x5D\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="OpenCurlyBrace" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x7B\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="ClosedCurlyBrace" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x7D\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Hash" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x23\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Percent" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x25\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Caret" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x5E\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Asterisk" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x2A\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Plus" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x2B\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Equal" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x3D\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Underscore" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x5F\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Backslash" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x5C\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Pipe" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x7C\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Tilde" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x7E\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="LessThan" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x3C\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="MoreThan" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x3E\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Dollar" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x24\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Pound" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\xA3\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Yen" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\xA5\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Bullet" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x20\x22\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Backspace" folder="Modifier Keys">\x00\x00\x00\x0d\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+      <cmd name="Space" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x20\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
+    </system>
+    <system name="mouseTCP" ip="192.168.1.120" origin="10210" port="4026" protocol="tcp" alwayson="1" accept="0" acceptBroadcasts="0" ssl="0" maxconnections="0" heartbeatRx="" heartbeatTx="" heartbeatMode="-1" eom="" connectionStatus="0" disconnectionStatus="0" />
+    <system name="Loopback" ip="127.0.0.1" port="10210" protocol="tcp" alwayson="1" accept="0" acceptBroadcasts="0" ssl="0" maxconnections="0" heartbeatRx="" heartbeatTx="" heartbeatMode="-1" eom="" connectionStatus="0" disconnectionStatus="0">
+      <cmd name="ShowUpperCaseKeyboard" target="d5" value="1">dummy</cmd>
+      <cmd name="HideUpperCaseKeyboard" target="d5" value="0">dummy</cmd>
+      <cmd name="ShowLowerCaseKeyboard" target="d6" value="1">dummy</cmd>
+      <cmd name="HideLowerCaseKeyboard" target="d6" value="0">dummy</cmd>
+      <cmd name="ShowNumbersKeyboard" target="d7" value="1">dummy</cmd>
+      <cmd name="HideNumbersKeyboard" target="d7" value="0">dummy</cmd>
+      <cmd name="HideSymbolsKeyboard" target="d8" value="0">dummy</cmd>
+      <cmd name="ShowSymbolsKeyboard" target="d8" value="1">dummy</cmd>
+    </system>
+  </systems>
+  <macros>
+    <macro name="HideAll">
+      <command delay="0">HideSymbolsKeyboard</command>
+      <command delay="0">HideNumbersKeyboard</command>
+      <command delay="0">HideUpperCaseKeyboard</command>
+      <command delay="0">HideLowerCaseKeyboard</command>
+    </macro>
+    <macro name="HideNumbersAndSymbols">
+      <command delay="0">HideSymbolsKeyboard</command>
+      <command delay="0">HideNumbersKeyboard</command>
+    </macro>
+    <macro name="ShowKeyboard">
+      <command delay="0">ShowLowerCaseKeyboard</command>
+    </macro>
+  </macros>
+  <themes>
+    <theme type="background" name=".CompanyBG"><![CDATA[ background-image: url(landscapeBG.png); background-repeat: no-repeat;]]></theme>
+    <theme type="button" name=".LetterKey[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(keyboard_key_light_grey.png); color: Black; font-size: 18px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".LetterKey[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(keyboard_key_grey2.png); color: White; font-size: 18px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".SpaceKey[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(keyboard_space_light_grey.png); text-shadow: rgba(255,255,255,1) 1px 1px 1px; color: #646F7C; font-size: 16px; font-family: 'Arial'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".SpaceKey[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(keyboard_space_grey2.png); text-shadow: rgba(255,255,255,1) 1px 1px 1px; color: #646F7C; font-size: 16px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".PunctuationKey[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(keyboard_key_special_light_grey.png); color: Black; font-size: 18px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".PunctuationKey[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(keyboard_key_special_grey2.png); color: White; font-size: 18px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".FunctionKey[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(keyboard_key_function_small_grey.png); color: White; font-size: 14px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".FunctionKey[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(keyboard_key_function_small_grey_highlighted.png); color: White; font-size: 14px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".BackspaceKey[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(keyboard_key_function_small_grey_backspace.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".BackspaceKey[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(keyboard_key_function_small_light_grey.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".BigFunctionKey[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(keyboard_key_function_big_grey.png); color: White; font-size: 16px; font-family: 'Arial'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".BigFunctionKey[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(keyboard_key_function_big_light_grey.png); text-shadow: rgba(255,255,255,1) 1px 1px 1px; color: #646F7C; font-size: 16px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".KeyboardKey[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(button_modifer.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".KeyboardKey[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(button_modifer.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".WinKey[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_windows_normal.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".WinKey[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_windows_pressed.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".CtrlKey[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_control_normal.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".CtrlKey[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_control_pressed.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".AltKey[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_alt_normal.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".AltKey[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_alt_pressed.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".LeftButton[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_left_released.png); color: Silver; font-size: 16px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".LeftButton[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_left_pressed.png); color: Silver; font-size: 16px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".MiddleButton[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_middle_released.png); color: Silver; font-size: 16px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".MiddleButton[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_middle_pressed.png); color: Silver; font-size: 16px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".RightButton[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_right_released.png); color: Silver; font-size: 16px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".RightButton[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_right_pressed.png); color: Silver; font-size: 16px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+  </themes>
+  <scripts>
+    <script name="MouseGestures-v1.0.js" />
+  </scripts>
+  <page name="Startup" j="0" transition="None" subtype="None" time="0" ease="">
+    <portrait>
+      <img x="0" y="31" w="320" h="460" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">touchpad.png</img>
+      <img x="0" y="31" w="320" h="390" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">
+        <gesture name="Mouse" type="pan" taps="1" touches="1">
+          <action phase="change" js="onMouse(gesture.velocityx, gesture.velocityy)" />
+        </gesture>
+        <gesture name="MouseTap" type="tap" taps="1" touches="1">
+          <action phase="begin" command="LeftMouseDown" />
+          <action phase="end" command="LeftMouseUp" />
+        </gesture>
+        <gesture name="MouseDoubleTap" type="tap" taps="1" touches="2">
+          <action phase="begin" command="RightMouseDown" />
+          <action phase="end" command="RightMouseUp" />
+        </gesture>
+      </img>
+      <btn j="0" x="0" y="421" w="107" h="59" t="LeftButton" flip="None" sim="1" l="0" s="1">
+        <actions>
+          <action>
+            <press delay="0" hold="0" repeat="0" command="LeftMouseDown" />
+            <release delay="0" command="LeftMouseUp" />
+          </action>
+        </actions>
+        <inactive s="0">left</inactive>
+        <active s="0">left</active>
+      </btn>
+      <btn j="0" x="107" y="421" w="106" h="59" t="MiddleButton" flip="None" sim="1" l="0" s="1">
+        <actions>
+          <action>
+            <press delay="0" hold="0" repeat="0" command="MiddleMouseDown" />
+            <release delay="0" command="MiddleMouseUp" />
+          </action>
+        </actions>
+        <inactive s="0">center</inactive>
+        <active s="0">center</active>
+      </btn>
+      <btn j="0" x="212" y="421" w="107" h="59" t="RightButton" flip="None" sim="1" l="0" s="1">
+        <actions>
+          <action>
+            <press delay="0" hold="0" repeat="0" command="RightMouseDown" />
+            <press delay="0" hold="0" repeat="0" command="RightMouseUp" />
+          </action>
+        </actions>
+        <inactive s="0">right</inactive>
+        <active s="0">right</active>
+      </btn>
+      <subpage name="KeyboardLettersLowerCase" x="0" y="32" j="6" transition1="moveIn" subtype1="fromTop" time1="0" ease1="easeInEaseOut" transition2="moveIn" subtype2="fromTop" time2="0" ease2="easeInEaseOut" clickthrough="0" topmost="0" v="0" l="0" />
+      <subpage name="KeyboardLettersUpperCase" x="0" y="32" j="5" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="0" l="0" />
+      <subpage name="KeyboardNumbers" x="0" y="32" j="7" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="0" l="0" />
+      <subpage name="KeyboardSymbols" x="0" y="32" j="8" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="0" l="0" />
+      <subpage name="TopBar" x="0" y="0" j="0" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="1" l="0" />
+    </portrait>
+    <landscape t="CompanyBG" />
+  </page>
+  <subpage name="KeyboardLettersUpperCase" w="320" h="215" clip="1">
+    <img x="0" y="0" w="320" h="215" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">static_keyboard_letters.png</img>
+    <btn j="0" x="1" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseQ">
+      <inactive s="0">Q</inactive>
+      <active s="0">Q</active>
+    </btn>
+    <btn j="0" x="288" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseP">
+      <inactive s="0">P</inactive>
+      <active s="0">P</active>
+    </btn>
+    <btn j="0" x="65" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseE">
+      <inactive s="0">E</inactive>
+      <active s="0">E</active>
+    </btn>
+    <btn j="0" x="97" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseR">
+      <inactive s="0">R</inactive>
+      <active s="0">R</active>
+    </btn>
+    <btn j="0" x="129" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseT">
+      <inactive s="0">T</inactive>
+      <active s="0">T</active>
+    </btn>
+    <btn j="0" x="160" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseY">
+      <inactive s="0">Y</inactive>
+      <active s="0">Y</active>
+    </btn>
+    <btn j="0" x="192" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseU">
+      <inactive s="0">U</inactive>
+      <active s="0">U</active>
+    </btn>
+    <btn j="0" x="224" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseI">
+      <inactive s="0">I</inactive>
+      <active s="0">I</active>
+    </btn>
+    <btn j="0" x="33" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseW">
+      <inactive s="0">W</inactive>
+      <active s="0">W</active>
+    </btn>
+    <btn j="0" x="256" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseO">
+      <inactive s="0">O</inactive>
+      <active s="0">O</active>
+    </btn>
+    <btn j="0" x="16" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseA">
+      <inactive s="0">A</inactive>
+      <active s="0">A</active>
+    </btn>
+    <btn j="0" x="273" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseL">
+      <inactive s="0">L</inactive>
+      <active s="0">L</active>
+    </btn>
+    <btn j="0" x="80" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseD">
+      <inactive s="0">D</inactive>
+      <active s="0">D</active>
+    </btn>
+    <btn j="0" x="112" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseF">
+      <inactive s="0">F</inactive>
+      <active s="0">F</active>
+    </btn>
+    <btn j="0" x="144" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseG">
+      <inactive s="0">G</inactive>
+      <active s="0">G</active>
+    </btn>
+    <btn j="0" x="177" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseH">
+      <inactive s="0">H</inactive>
+      <active s="0">H</active>
+    </btn>
+    <btn j="0" x="209" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseJ">
+      <inactive s="0">J</inactive>
+      <active s="0">J</active>
+    </btn>
+    <btn j="0" x="241" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseK">
+      <inactive s="0">K</inactive>
+      <active s="0">K</active>
+    </btn>
+    <btn j="0" x="48" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseS">
+      <inactive s="0">S</inactive>
+      <active s="0">S</active>
+    </btn>
+    <btn j="0" x="81" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseX">
+      <inactive s="0">X</inactive>
+      <active s="0">X</active>
+    </btn>
+    <btn j="0" x="113" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseC">
+      <inactive s="0">C</inactive>
+      <active s="0">C</active>
+    </btn>
+    <btn j="0" x="145" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseV">
+      <inactive s="0">V</inactive>
+      <active s="0">V</active>
+    </btn>
+    <btn j="0" x="178" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseB">
+      <inactive s="0">B</inactive>
+      <active s="0">B</active>
+    </btn>
+    <btn j="0" x="210" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseN">
+      <inactive s="0">N</inactive>
+      <active s="0">N</active>
+    </btn>
+    <btn j="0" x="242" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseM">
+      <inactive s="0">M</inactive>
+      <active s="0">M</active>
+    </btn>
+    <btn j="0" x="49" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="upperCaseZ">
+      <inactive s="0">Z</inactive>
+      <active s="0">Z</active>
+    </btn>
+    <btn j="0" x="81" y="171" w="158" h="43" t="SpaceKey" flip="None" sim="1" l="0" s="1" cmd="Space">
+      <inactive s="0">space</inactive>
+      <active s="0">space</active>
+    </btn>
+    <btn j="5" x="1" y="117" w="40" h="43" t="FunctionKey" flip="None" sim="0" l="0" s="1" cmd="HideUpperCaseKeyboard">
+      <inactive s="0">
+        <img x="0" y="0" w="40" h="43">keyboard_key_shift_pressed.png</img>
+      </inactive>
+      <active s="0">
+        <img x="0" y="0" w="40" h="43">keyboard_key_shift_pressed.png</img>
+      </active>
+    </btn>
+    <btn j="0" x="278" y="117" w="40" h="43" t="FunctionKey" flip="None" sim="1" l="0" s="1">
+      <actions>
+        <action>
+          <press delay="0" hold="0" repeat="0" command="Backspace" />
+          <press delay="0" hold="400" repeat="100" command="BackspaceDown" />
+          <release delay="0" command="BackspaceUp" />
+        </action>
+      </actions>
+      <inactive s="0">
+        <img x="0" y="0" w="40" h="43">keyboard_key_backspace.png</img>
+      </inactive>
+      <active s="0">
+        <img x="0" y="0" w="40" h="43">keyboard_key_backspace.png</img>
+      </active>
+    </btn>
+    <btn j="0" x="1" y="171" w="78" h="43" t="BigFunctionKey" flip="None" sim="0" l="0" s="1" cmd="ShowNumbersKeyboard">
+      <inactive s="0">.?123</inactive>
+      <active s="0">.?123</active>
+    </btn>
+    <btn j="0" x="240" y="171" w="78" h="43" t="BigFunctionKey" flip="None" sim="1" l="0" s="1" cmd="Enter">
+      <inactive s="0">enter</inactive>
+      <active s="0">enter</active>
+    </btn>
+  </subpage>
+  <subpage name="TopBar" w="320" h="31" clip="1">
+    <img x="0" y="0" w="320" h="31" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">button_bar.png</img>
+    <btn j="1" x="1" y="2" w="45" h="28" t="WinKey" flip="None" sim="0" l="0" s="1">
+      <actions>
+        <action>
+          <release delay="0" command="WinDown" />
+        </action>
+        <action>
+          <release delay="0" command="WinUp" />
+        </action>
+      </actions>
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="2" x="50" y="1" w="45" h="28" t="CtrlKey" flip="None" sim="0" l="0" s="1">
+      <actions>
+        <action>
+          <release delay="0" command="CtrlDown" />
+        </action>
+        <action>
+          <release delay="0" command="CtrlUp" />
+        </action>
+      </actions>
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="3" x="99" y="1" w="45" h="28" t="AltKey" flip="None" sim="0" l="0" s="1">
+      <actions>
+        <action>
+          <release delay="0" command="AltDown" />
+        </action>
+        <action>
+          <release delay="0" command="AltUp" />
+        </action>
+      </actions>
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="281" y="1" w="38" h="28" t="KeyboardKey" flip="None" sim="0" l="0" s="1">
+      <actions>
+        <action>
+          <press delay="0" hold="0" repeat="0" macro="ShowKeyboard" />
+        </action>
+        <action>
+          <press delay="0" hold="0" repeat="0" macro="HideAll" />
+        </action>
+      </actions>
+      <inactive s="0">
+        <img x="5" y="-1" w="28" h="28">1329903935_keyboard.png</img>
+      </inactive>
+      <active s="0">
+        <img x="5" y="-1" w="28" h="28">1329903935_keyboard.png</img>
+      </active>
+    </btn>
+  </subpage>
+  <subpage name="KeyboardLettersLowerCase" w="320" h="215" clip="1">
+    <img x="0" y="0" w="320" h="215" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">static_keyboard_letters.png</img>
+    <btn j="0" x="1" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseQ">
+      <inactive s="0">q</inactive>
+      <active s="0">q</active>
+    </btn>
+    <btn j="0" x="288" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseP">
+      <inactive s="0">p</inactive>
+      <active s="0">p</active>
+    </btn>
+    <btn j="0" x="65" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseE">
+      <inactive s="0">e</inactive>
+      <active s="0">e</active>
+    </btn>
+    <btn j="0" x="97" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseR">
+      <inactive s="0">r</inactive>
+      <active s="0">r</active>
+    </btn>
+    <btn j="0" x="129" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseT">
+      <inactive s="0">t</inactive>
+      <active s="0">t</active>
+    </btn>
+    <btn j="0" x="160" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseY">
+      <inactive s="0">y</inactive>
+      <active s="0">y</active>
+    </btn>
+    <btn j="0" x="192" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseU">
+      <inactive s="0">u</inactive>
+      <active s="0">u</active>
+    </btn>
+    <btn j="0" x="224" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseI">
+      <inactive s="0">i</inactive>
+      <active s="0">i</active>
+    </btn>
+    <btn j="0" x="33" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseW">
+      <inactive s="0">w</inactive>
+      <active s="0">w</active>
+    </btn>
+    <btn j="0" x="256" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseO">
+      <inactive s="0">o</inactive>
+      <active s="0">o</active>
+    </btn>
+    <btn j="0" x="16" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseA">
+      <inactive s="0">a</inactive>
+      <active s="0">a</active>
+    </btn>
+    <btn j="0" x="273" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseL">
+      <inactive s="0">l</inactive>
+      <active s="0">l</active>
+    </btn>
+    <btn j="0" x="80" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseD">
+      <inactive s="0">d</inactive>
+      <active s="0">d</active>
+    </btn>
+    <btn j="0" x="112" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseF">
+      <inactive s="0">f</inactive>
+      <active s="0">f</active>
+    </btn>
+    <btn j="0" x="144" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseG">
+      <inactive s="0">g</inactive>
+      <active s="0">g</active>
+    </btn>
+    <btn j="0" x="177" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseH">
+      <inactive s="0">h</inactive>
+      <active s="0">h</active>
+    </btn>
+    <btn j="0" x="209" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseJ">
+      <inactive s="0">j</inactive>
+      <active s="0">j</active>
+    </btn>
+    <btn j="0" x="241" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseK">
+      <inactive s="0">k</inactive>
+      <active s="0">k</active>
+    </btn>
+    <btn j="0" x="48" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseS">
+      <inactive s="0">s</inactive>
+      <active s="0">s</active>
+    </btn>
+    <btn j="0" x="81" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseX">
+      <inactive s="0">x</inactive>
+      <active s="0">x</active>
+    </btn>
+    <btn j="0" x="113" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseC">
+      <inactive s="0">c</inactive>
+      <active s="0">c</active>
+    </btn>
+    <btn j="0" x="145" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseV">
+      <inactive s="0">v</inactive>
+      <active s="0">v</active>
+    </btn>
+    <btn j="0" x="178" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseB">
+      <inactive s="0">b</inactive>
+      <active s="0">b</active>
+    </btn>
+    <btn j="0" x="210" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseN">
+      <inactive s="0">n</inactive>
+      <active s="0">n</active>
+    </btn>
+    <btn j="0" x="242" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseM">
+      <inactive s="0">m</inactive>
+      <active s="0">m</active>
+    </btn>
+    <btn j="0" x="49" y="118" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="lowerCaseZ">
+      <inactive s="0">z</inactive>
+      <active s="0">z</active>
+    </btn>
+    <btn j="0" x="81" y="171" w="158" h="43" t="SpaceKey" flip="None" sim="1" l="0" s="1" cmd="Space">
+      <inactive s="0">space</inactive>
+      <active s="0">space</active>
+    </btn>
+    <btn j="5" x="1" y="117" w="40" h="43" t="FunctionKey" flip="None" sim="0" l="0" s="1" cmd="ShowUpperCaseKeyboard">
+      <inactive s="0">
+        <img x="0" y="0" w="40" h="43">keyboard_key_shift_pressed.png</img>
+      </inactive>
+      <active s="0">
+        <img x="0" y="0" w="40" h="43">keyboard_key_shift_pressed.png</img>
+      </active>
+    </btn>
+    <btn j="0" x="278" y="117" w="40" h="43" t="FunctionKey" flip="None" sim="1" l="0" s="1">
+      <actions>
+        <action>
+          <press delay="0" hold="0" repeat="0" command="Backspace" />
+          <press delay="0" hold="400" repeat="100" command="BackspaceDown" />
+          <release delay="0" command="BackspaceUp" />
+        </action>
+      </actions>
+      <inactive s="0">
+        <img x="0" y="0" w="40" h="43">keyboard_key_backspace.png</img>
+      </inactive>
+      <active s="0">
+        <img x="0" y="0" w="40" h="43">keyboard_key_backspace.png</img>
+      </active>
+    </btn>
+    <btn j="0" x="1" y="171" w="78" h="43" t="BigFunctionKey" flip="None" sim="0" l="0" s="1" cmd="ShowNumbersKeyboard">
+      <inactive s="0">.?123</inactive>
+      <active s="0">.?123</active>
+    </btn>
+    <btn j="0" x="240" y="171" w="78" h="43" t="BigFunctionKey" flip="None" sim="1" l="0" s="1" cmd="Enter">
+      <inactive s="0">enter</inactive>
+      <active s="0">enter</active>
+    </btn>
+  </subpage>
+  <subpage name="KeyboardNumbers" w="320" h="215" clip="1">
+    <img x="0" y="0" w="320" h="215" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">static_keyboard_numbers_ita.png</img>
+    <btn j="0" x="1" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="1">
+      <inactive s="0">1</inactive>
+      <active s="0">1</active>
+    </btn>
+    <btn j="0" x="288" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="0">
+      <inactive s="0">0</inactive>
+      <active s="0">0</active>
+    </btn>
+    <btn j="0" x="65" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="3">
+      <inactive s="0">3</inactive>
+      <active s="0">3</active>
+    </btn>
+    <btn j="0" x="97" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="4">
+      <inactive s="0">4</inactive>
+      <active s="0">4</active>
+    </btn>
+    <btn j="0" x="129" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="5">
+      <inactive s="0">5</inactive>
+      <active s="0">5</active>
+    </btn>
+    <btn j="0" x="160" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="6">
+      <inactive s="0">6</inactive>
+      <active s="0">6</active>
+    </btn>
+    <btn j="0" x="192" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="7">
+      <inactive s="0">7</inactive>
+      <active s="0">7</active>
+    </btn>
+    <btn j="0" x="224" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="8">
+      <inactive s="0">8</inactive>
+      <active s="0">8</active>
+    </btn>
+    <btn j="0" x="33" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="2">
+      <inactive s="0">2</inactive>
+      <active s="0">2</active>
+    </btn>
+    <btn j="0" x="256" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="9">
+      <inactive s="0">9</inactive>
+      <active s="0">9</active>
+    </btn>
+    <btn j="0" x="229" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="Apostrophe">
+      <inactive s="0">'</inactive>
+      <active s="0">'</active>
+    </btn>
+    <btn j="0" x="48" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="Period">
+      <inactive s="0">.</inactive>
+      <active s="0">.</active>
+    </btn>
+    <btn j="0" x="81" y="171" w="158" h="43" t="SpaceKey" flip="None" sim="1" l="0" s="1" cmd="Space">
+      <inactive s="0">space</inactive>
+      <active s="0">space</active>
+    </btn>
+    <btn j="0" x="1" y="117" w="40" h="43" t="FunctionKey" flip="None" sim="0" l="0" s="1" cmd="ShowSymbolsKeyboard">
+      <inactive s="0">#+=</inactive>
+      <active s="0">#+=</active>
+    </btn>
+    <btn j="0" x="278" y="117" w="40" h="43" t="FunctionKey" flip="None" sim="1" l="0" s="1">
+      <actions>
+        <action>
+          <press delay="0" hold="0" repeat="0" command="Backspace" />
+          <press delay="0" hold="400" repeat="100" command="BackspaceDown" />
+          <release delay="0" command="BackspaceUp" />
+        </action>
+      </actions>
+      <inactive s="0">
+        <img x="0" y="0" w="40" h="43">keyboard_key_backspace.png</img>
+      </inactive>
+      <active s="0">
+        <img x="0" y="0" w="40" h="43">keyboard_key_backspace.png</img>
+      </active>
+    </btn>
+    <btn j="0" x="1" y="171" w="78" h="43" t="BigFunctionKey" flip="None" sim="0" l="0" s="1" cmd="HideNumbersKeyboard">
+      <inactive s="0">ABC</inactive>
+      <active s="0">ABC</active>
+    </btn>
+    <btn j="0" x="240" y="171" w="78" h="43" t="BigFunctionKey" flip="None" sim="1" l="0" s="1" cmd="Enter">
+      <inactive s="0">enter</inactive>
+      <active s="0">enter</active>
+    </btn>
+    <btn j="0" x="288" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="QuotationMark">
+      <inactive s="0">"</inactive>
+      <active s="0">"</active>
+    </btn>
+    <btn j="0" x="1" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Minus">
+      <inactive s="0">-</inactive>
+      <active s="0">-</active>
+    </btn>
+    <btn j="0" x="65" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Colon">
+      <inactive s="0">:</inactive>
+      <active s="0">:</active>
+    </btn>
+    <btn j="0" x="97" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Semicolon">
+      <inactive s="0">;</inactive>
+      <active s="0">;</active>
+    </btn>
+    <btn j="0" x="129" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="OpenBracket">
+      <inactive s="0">(</inactive>
+      <active s="0">(</active>
+    </btn>
+    <btn j="0" x="160" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="ClosedBracket">
+      <inactive s="0">)</inactive>
+      <active s="0">)</active>
+    </btn>
+    <btn j="0" x="192" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Euro">
+      <inactive s="0">€</inactive>
+      <active s="0">€</active>
+    </btn>
+    <btn j="0" x="224" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Ampersand">
+      <inactive s="0">&amp;</inactive>
+      <active s="0">&amp;</active>
+    </btn>
+    <btn j="0" x="33" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Slash">
+      <inactive s="0">/</inactive>
+      <active s="0">/</active>
+    </btn>
+    <btn j="0" x="256" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="At">
+      <inactive s="0">@</inactive>
+      <active s="0">@</active>
+    </btn>
+    <btn j="0" x="184" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="ExclamationMark">
+      <inactive s="0">!</inactive>
+      <active s="0">!</active>
+    </btn>
+    <btn j="0" x="93" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="Comma">
+      <inactive s="0">,</inactive>
+      <active s="0">,</active>
+    </btn>
+    <btn j="0" x="138" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="QuotationMark">
+      <inactive s="0">?</inactive>
+      <active s="0">?</active>
+    </btn>
+  </subpage>
+  <subpage name="KeyboardSymbols" w="320" h="215" clip="1">
+    <img x="0" y="0" w="320" h="215" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">static_keyboard_numbers_ita.png</img>
+    <btn j="0" x="1" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="OpenSquareBracket">
+      <inactive s="0">[</inactive>
+      <active s="0">[</active>
+    </btn>
+    <btn j="0" x="288" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Equal">
+      <inactive s="0">=</inactive>
+      <active s="0">=</active>
+    </btn>
+    <btn j="0" x="65" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="OpenCurlyBrace">
+      <inactive s="0">{</inactive>
+      <active s="0">{</active>
+    </btn>
+    <btn j="0" x="97" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="ClosedCurlyBrace">
+      <inactive s="0">}</inactive>
+      <active s="0">}</active>
+    </btn>
+    <btn j="0" x="129" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Hash">
+      <inactive s="0">#</inactive>
+      <active s="0">#</active>
+    </btn>
+    <btn j="0" x="160" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Percent">
+      <inactive s="0">%</inactive>
+      <active s="0">%</active>
+    </btn>
+    <btn j="0" x="192" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Caret">
+      <inactive s="0">^</inactive>
+      <active s="0">^</active>
+    </btn>
+    <btn j="0" x="224" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Asterisk">
+      <inactive s="0">*</inactive>
+      <active s="0">*</active>
+    </btn>
+    <btn j="0" x="33" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="ClosedSquareBracket">
+      <inactive s="0">]</inactive>
+      <active s="0">]</active>
+    </btn>
+    <btn j="0" x="256" y="10" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Plus">
+      <inactive s="0">+</inactive>
+      <active s="0">+</active>
+    </btn>
+    <btn j="0" x="229" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="Apostrophe">
+      <inactive s="0">'</inactive>
+      <active s="0">'</active>
+    </btn>
+    <btn j="0" x="48" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="Period">
+      <inactive s="0">.</inactive>
+      <active s="0">.</active>
+    </btn>
+    <btn j="0" x="81" y="171" w="158" h="43" t="SpaceKey" flip="None" sim="1" l="0" s="1" cmd="Space">
+      <inactive s="0">space</inactive>
+      <active s="0">space</active>
+    </btn>
+    <btn j="0" x="1" y="117" w="40" h="43" t="FunctionKey" flip="None" sim="0" l="0" s="1" cmd="HideSymbolsKeyboard">
+      <inactive s="0">123</inactive>
+      <active s="0">123</active>
+    </btn>
+    <btn j="0" x="278" y="117" w="40" h="43" t="FunctionKey" flip="None" sim="1" l="0" s="1">
+      <actions>
+        <action>
+          <press delay="0" hold="0" repeat="0" command="Backspace" />
+          <press delay="0" hold="400" repeat="100" command="BackspaceDown" />
+          <release delay="0" command="BackspaceUp" />
+        </action>
+      </actions>
+      <inactive s="0">
+        <img x="0" y="0" w="40" h="43">keyboard_key_backspace.png</img>
+      </inactive>
+      <active s="0">
+        <img x="0" y="0" w="40" h="43">keyboard_key_backspace.png</img>
+      </active>
+    </btn>
+    <btn j="0" x="1" y="171" w="78" h="43" t="BigFunctionKey" flip="None" sim="0" l="0" s="1" macro="HideNumbersAndSymbols">
+      <inactive s="0">ABC</inactive>
+      <active s="0">ABC</active>
+    </btn>
+    <btn j="0" x="240" y="171" w="78" h="43" t="BigFunctionKey" flip="None" sim="1" l="0" s="1" cmd="Enter">
+      <inactive s="0">enter</inactive>
+      <active s="0">enter</active>
+    </btn>
+    <btn j="0" x="288" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Bullet">
+      <inactive s="0">•</inactive>
+      <active s="0">•</active>
+    </btn>
+    <btn j="0" x="1" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Underscore">
+      <inactive s="0">_</inactive>
+      <active s="0">_</active>
+    </btn>
+    <btn j="0" x="65" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Pipe">
+      <inactive s="0">|</inactive>
+      <active s="0">|</active>
+    </btn>
+    <btn j="0" x="97" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Tilde">
+      <inactive s="0">~</inactive>
+      <active s="0">~</active>
+    </btn>
+    <btn j="0" x="129" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="LessThan">
+      <inactive s="0">&lt;</inactive>
+      <active s="0">&lt;</active>
+    </btn>
+    <btn j="0" x="160" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="MoreThan">
+      <inactive s="0">&gt;</inactive>
+      <active s="0">&gt;</active>
+    </btn>
+    <btn j="0" x="192" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Dollar">
+      <inactive s="0">$</inactive>
+      <active s="0">$</active>
+    </btn>
+    <btn j="0" x="224" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Pound">
+      <inactive s="0">£</inactive>
+      <active s="0">£</active>
+    </btn>
+    <btn j="0" x="33" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Backslash">
+      <inactive s="0">\</inactive>
+      <active s="0">\</active>
+    </btn>
+    <btn j="0" x="256" y="64" w="30" h="43" t="LetterKey" flip="None" sim="1" l="0" s="1" cmd="Yen">
+      <inactive s="0">¥</inactive>
+      <active s="0">¥</active>
+    </btn>
+    <btn j="0" x="184" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="ExclamationMark">
+      <inactive s="0">!</inactive>
+      <active s="0">!</active>
+    </btn>
+    <btn j="0" x="93" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="Comma">
+      <inactive s="0">,</inactive>
+      <active s="0">,</active>
+    </btn>
+    <btn j="0" x="138" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="QuotationMark">
+      <inactive s="0">?</inactive>
+      <active s="0">?</active>
+    </btn>
+  </subpage>
+</gui>

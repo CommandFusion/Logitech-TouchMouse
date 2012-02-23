@@ -13,7 +13,7 @@
     </devices>
   </properties>
   <systems>
-    <system name="mouseUDP" ip="192.168.1.120" origin="10210" port="4026" protocol="udp" alwayson="1" accept="0" acceptBroadcasts="0" ssl="0" maxconnections="0" heartbeatRx="" heartbeatTx="" heartbeatMode="-1" eom="" connectionStatus="0" disconnectionStatus="0">
+    <system name="mouseUDP" ip="" origin="10210" port="4026" protocol="udp" alwayson="1" accept="0" acceptBroadcasts="0" ssl="0" maxconnections="0" heartbeatRx="" heartbeatTx="" heartbeatMode="-1" eom="" connectionStatus="0" disconnectionStatus="0">
       <cmd name="LeftMouseDown" folder="Mouse Buttons">\x00\x00\x00\x05\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
       <cmd name="LeftMouseUp" folder="Mouse Buttons">\x00\x00\x00\x04\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
       <cmd name="RightMouseDown" folder="Mouse Buttons">\x00\x00\x00\x05\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
@@ -130,7 +130,7 @@
       <cmd name="Backspace" folder="Modifier Keys">\x00\x00\x00\x0d\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
       <cmd name="Space" folder="Keyboard">\x00\x00\x00\x0d\x00\x00\x00\x20\x00\x00\x00\x00\x00\x00\x00\x00</cmd>
     </system>
-    <system name="mouseTCP" ip="192.168.1.120" origin="10210" port="4026" protocol="tcp" alwayson="1" accept="0" acceptBroadcasts="0" ssl="0" maxconnections="0" heartbeatRx="" heartbeatTx="" heartbeatMode="-1" eom="" connectionStatus="0" disconnectionStatus="0" />
+    <system name="mouseTCP" ip="" origin="10210" port="4026" protocol="tcp" alwayson="1" accept="0" acceptBroadcasts="0" ssl="0" maxconnections="0" heartbeatRx="" heartbeatTx="" heartbeatMode="-1" eom="" connectionStatus="0" disconnectionStatus="0" />
     <system name="Loopback" ip="127.0.0.1" port="10210" protocol="tcp" alwayson="1" accept="0" acceptBroadcasts="0" ssl="0" maxconnections="0" heartbeatRx="" heartbeatTx="" heartbeatMode="-1" eom="" connectionStatus="0" disconnectionStatus="0">
       <cmd name="ShowUpperCaseKeyboard" target="d5" value="1">dummy</cmd>
       <cmd name="HideUpperCaseKeyboard" target="d5" value="0">dummy</cmd>
@@ -140,6 +140,9 @@
       <cmd name="HideNumbersKeyboard" target="d7" value="0">dummy</cmd>
       <cmd name="HideSymbolsKeyboard" target="d8" value="0">dummy</cmd>
       <cmd name="ShowSymbolsKeyboard" target="d8" value="1">dummy</cmd>
+      <cmd name="ReleaseWinKey" target="d1" value="0">dummy</cmd>
+      <cmd name="ReleaseCtrlKey" target="d2" value="0">dummy</cmd>
+      <cmd name="ReleaseAltKey" target="d3" value="0">dummy</cmd>
     </system>
   </systems>
   <macros>
@@ -152,6 +155,11 @@
     <macro name="HideNumbersAndSymbols">
       <command delay="0">HideSymbolsKeyboard</command>
       <command delay="0">HideNumbersKeyboard</command>
+    </macro>
+    <macro name="ReleaseModifiers">
+      <command delay="0">ReleaseWinKey</command>
+      <command delay="0">ReleaseCtrlKey</command>
+      <command delay="0">ReleaseAltKey</command>
     </macro>
     <macro name="ShowKeyboard">
       <command delay="0">ShowLowerCaseKeyboard</command>
@@ -185,11 +193,20 @@
     <theme type="button" name=".MiddleButton[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_middle_pressed.png); color: Silver; font-size: 16px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
     <theme type="button" name=".RightButton[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_right_released.png); color: Silver; font-size: 16px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
     <theme type="button" name=".RightButton[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_right_pressed.png); color: Silver; font-size: 16px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="text" name=".ListText"><![CDATA[ color: #000000; font-size: 16px; font-family: 'Arial Black'; text-align: left; vertical-align: middle; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="background" name=".BackgroundStripes"><![CDATA[ background-image: url(background_stripes2.png); background-repeat: no-repeat;]]></theme>
+    <theme type="input" name=".IPaddress"><![CDATA[ border-width: 0px; color: Black; font-size: 14px; font-family: 'Arial Black'; text-align: center; vertical-align: middle; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="text" name=".Titles"><![CDATA[ color: #808080; font-size: 16px; font-family: 'Arial Black'; text-align: center; vertical-align: middle; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="button" name=".RefreshList[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(list_refresh_button_released2.png); text-shadow: rgba(255,255,255,1) 1px 1px 1px; color: Black; font-size: 18px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".RefreshList[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(list_refresh_button_pressed2.png); text-shadow: rgba(0,0,0,1) 1px 1px 1px; color: White; font-size: 18px; font-family: 'Arial Black'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".TransparentButton[state='0']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".TransparentButton[state='1']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="text" name=".AlertText"><![CDATA[ text-shadow: rgba(0,0,0,1) 1px 1px 1px; color: White; font-size: 18px; font-family: 'Arial Black'; text-align: center; vertical-align: middle; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
   </themes>
   <scripts>
     <script name="MouseGestures-v1.0.js" />
   </scripts>
-  <page name="Startup" j="0" transition="None" subtype="None" time="0" ease="">
+  <page name="Touchpad" j="0" transition="moveIn" subtype="fromRight" time="0" ease="easeInEaseOut">
     <portrait>
       <img x="0" y="31" w="320" h="460" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">touchpad.png</img>
       <img x="0" y="31" w="320" h="390" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">
@@ -240,6 +257,23 @@
       <subpage name="KeyboardNumbers" x="0" y="32" j="7" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="0" l="0" />
       <subpage name="KeyboardSymbols" x="0" y="32" j="8" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="0" l="0" />
       <subpage name="TopBar" x="0" y="0" j="0" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="1" l="0" />
+      <subpage name="UserMessage" x="0" y="0" j="12" transition1="fade" subtype1="None" time1="0.5" ease1="easeInEaseOut" transition2="fade" subtype2="None" time2="0.5" ease2="easeInEaseOut" clickthrough="0" topmost="0" v="0" l="0" />
+    </portrait>
+    <landscape t="CompanyBG" />
+  </page>
+  <page name="ServerSelection" j="0" transition="moveIn" subtype="fromLeft" time="0" ease="easeInEaseOut" start="1">
+    <portrait t="BackgroundStripes">
+      <img x="10" y="154" w="300" h="225" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">list_bg_white2.png</img>
+      <list j="1" x="10" y="154" w="300" h="225" headerSub="" titleSub="" contentSub="ListElement" footerSub="" orientation="v" l="0" swipedelete="0" />
+      <img x="10" y="73" w="301" h="31" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">list_text_field.png</img>
+      <input j="11" s="11" x="10" y="73" w="301" h="31" pass="0" autoFocus="0" f="0" t="IPaddress" l="0">IP Address</input>
+      <txt j="0" x="0" y="100" w="320" h="52" t="Titles" wrap="False" l="0">or select a server from the list</txt>
+      <txt j="0" x="0" y="20" w="320" h="50" t="Titles" wrap="True" l="0">Please enter your computer's IP address</txt>
+      <btn j="0" x="9" y="401" w="302" h="45" t="RefreshList" flip="None" sim="0" l="0" s="1" js="performLookup()">
+        <inactive s="0">Refresh List</inactive>
+        <active s="0">Refresh List</active>
+      </btn>
+      <subpage name="UserMessage" x="0" y="0" j="12" transition1="fade" subtype1="None" time1="0.5" ease1="easeInEaseOut" transition2="fade" subtype2="None" time2="0.5" ease2="easeInEaseOut" clickthrough="0" topmost="0" v="0" l="0" />
     </portrait>
     <landscape t="CompanyBG" />
   </page>
@@ -429,7 +463,15 @@
       <active s="0">
       </active>
     </btn>
-    <btn j="0" x="281" y="1" w="38" h="28" t="KeyboardKey" flip="None" sim="0" l="0" s="1">
+    <btn j="0" x="281" y="1" w="38" h="28" t="KeyboardKey" flip="None" sim="0" l="0" s="1" js="disconnect()">
+      <inactive s="0">
+        <img x="10" y="5" w="18" h="18">transports_sml_12_wht.png</img>
+      </inactive>
+      <active s="0">
+        <img x="10" y="5" w="18" h="18">transports_sml_12_wht.png</img>
+      </active>
+    </btn>
+    <btn j="0" x="240" y="1" w="38" h="28" t="KeyboardKey" flip="None" sim="0" l="0" s="1">
       <actions>
         <action>
           <press delay="0" hold="0" repeat="0" macro="ShowKeyboard" />
@@ -855,5 +897,21 @@
       <inactive s="0">?</inactive>
       <active s="0">?</active>
     </btn>
+  </subpage>
+  <subpage name="ListElement" w="300" h="56" clip="1">
+    <img x="0" y="0" w="300" h="56" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">list_item2.png</img>
+    <img x="6" y="2" w="42" h="42" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">computer_icon.png</img>
+    <txt j="10" x="53" y="0" w="208" h="56" t="ListText" wrap="False" l="0">New Text Object</txt>
+    <btn j="10" x="0" y="0" w="300" h="56" t="TransparentButton" flip="None" sim="0" l="0" s="1">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+  </subpage>
+  <subpage name="UserMessage" w="320" h="480" clip="1">
+    <img x="0" y="0" w="320" h="480" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">half_opacity_bg.png</img>
+    <img x="15" y="154" w="290" h="173" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">message_box.png<gesture name="CancelMessage" type="tap" taps="1" touches="1"><action phase="begin" j="s11" value="" /><action phase="begin" j="d12" value="0" /></gesture></img>
+    <txt j="12" x="40" y="200" w="240" h="80" t="AlertText" wrap="True" l="0">Not a valid IP address or hostname</txt>
   </subpage>
 </gui>

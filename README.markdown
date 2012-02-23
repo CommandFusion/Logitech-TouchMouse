@@ -4,16 +4,14 @@ This is a port of the [Logitech TouchMouse](http://itunes.apple.com/it/app/touch
 
 This module uses Javascript to interpret Pan gestures and send the mouse events. It features a 3-button mouse and keyboard emulation.
 
-![SS-0](https://github.com/CommandFusion/Logitech-TouchMouse/raw/master/Screenshots/SS-0.png)           ![SS-1](https://github.com/CommandFusion/Logitech-TouchMouse/raw/master/Screenshots/SS-1.png)
+## Features
 
-## Supported Events
-
+1. Discovery with Bonjour or manual IP
 1. Mouse movement, left-middle-right click, double-click, click-and-drag
 1. Keyboard emulation: letters, numbers, symbols, modifier keys (CTRL, ALT), Windows Key
 
-## ToDo
+## ToDo List
 
-1. Discovery with Bonjour
 1. Scroll function (Pan gesture currently doesn't support multitouch)
 1. Letters with accent
 1. Improve acceleration
@@ -21,7 +19,7 @@ This module uses Javascript to interpret Pan gestures and send the mouse events.
 ## Instructions
 
 1. Download the [Logitech TouchMouse Server](http://www.logitech.com/en-us/494/6367)
-1. In System Manager, change both the TCP and UDP systems IP address to your PC address as shown in the server information box
+1. Select the server to connect to from the list, or enter manually the IP address of the computer
 
 ## Links
 

@@ -4,6 +4,9 @@ This is a port of the [Logitech TouchMouse](http://itunes.apple.com/it/app/touch
 
 This module uses Javascript to interpret Pan gestures and send the mouse events. It features a 3-button mouse and keyboard emulation.
 
+![SS-0](https://github.com/CommandFusion/Logitech-TouchMouse/raw/master/Screenshots/SS-0.png]![SS-1](https://github.com/CommandFusion/Logitech-TouchMouse/raw/master/Screenshots/SS-1.png]![SS-2](https://github.com/CommandFusion/Logitech-TouchMouse/raw/master/Screenshots/SS-2.png]
+![SS-3](https://github.com/CommandFusion/Logitech-TouchMouse/raw/master/Screenshots/SS-3.png]![SS-4](https://github.com/CommandFusion/Logitech-TouchMouse/raw/master/Screenshots/SS-4.png]
+
 ## Supported Events
 
 1. Mouse movement, left-middle-right click, double-click, click-and-drag

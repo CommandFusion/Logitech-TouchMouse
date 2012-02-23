@@ -6,8 +6,7 @@
       <portrait width="320" height="480" />
       <landscape width="480" height="320" />
     </size>
-    <imagefolder>
-    </imagefolder>
+    <imagefolder>Assets</imagefolder>
     <debug loaderrors="0" connectionerrors="0" />
     <devices>
       <device name="G2M iPad Dev">9869B9F35ADA54E672B351984458A594</device>
@@ -718,7 +717,7 @@
       <inactive s="0">,</inactive>
       <active s="0">,</active>
     </btn>
-    <btn j="0" x="138" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="QuotationMark">
+    <btn j="0" x="138" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="QuestionMark">
       <inactive s="0">?</inactive>
       <active s="0">?</active>
     </btn>
@@ -852,7 +851,7 @@
       <inactive s="0">,</inactive>
       <active s="0">,</active>
     </btn>
-    <btn j="0" x="138" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="QuotationMark">
+    <btn j="0" x="138" y="118" w="44" h="43" t="PunctuationKey" flip="None" sim="1" l="0" s="1" cmd="QuestionMark">
       <inactive s="0">?</inactive>
       <active s="0">?</active>
     </btn>

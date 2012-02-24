@@ -8,13 +8,13 @@ This module uses Javascript to interpret Pan gestures and send the mouse events.
 
 1. Discovery with Bonjour or manual IP
 1. Mouse movement, left-middle-right click, double-click, click-and-drag
-1. Keyboard emulation: letters, numbers, symbols, modifier keys (CTRL, ALT), Windows Key
+1. Keyboard emulation: letters, numbers, symbols, modifier keys (CTRL, ALT), Windows Key, letters with accent (limited support)
+1. Touchpad-like Vertical scroll 
 
 ## ToDo List
 
-1. Scroll function (Pan gesture currently doesn't support multitouch)
-1. Letters with accent
 1. Improve acceleration
+1. Mac OS support
 
 ## Instructions
 

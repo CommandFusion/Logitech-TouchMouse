@@ -1,8 +1,8 @@
 function onMouse(horizontalSpeed, verticalSpeed){
 			
 			//scales down iViewer gesture velocity
-			var x = Math.abs(horizontalSpeed/16)	
-			var y = Math.abs(verticalSpeed/16)
+			var x = Math.min(Math.abs(horizontalSpeed/16), 255)	
+			var y = Math.min(Math.abs(verticalSpeed/16), 255)
 			
 			//calculates mouse speed
 			var xSpeed = (horizontalSpeed >= 0) ? (Math.round(x - (32 * Math.sin(x)*(Math.PI/128)))) : (255 - (Math.round(x - (32 * Math.sin(x)*(Math.PI/128)))))
@@ -30,7 +30,7 @@ function onMouse(horizontalSpeed, verticalSpeed){
 function onVerticalScroll(verticalSpeed){
 			
 			//scales down iViewer gesture velocity
-			var y = Math.abs(verticalSpeed/16)
+			var y = Math.min(Math.abs(verticalSpeed/8), 255)
 			
 			//calculates mouse speed
 			var ySpeed = (verticalSpeed >= 0) ? (Math.round(y)) : (255 - (Math.round(y)))

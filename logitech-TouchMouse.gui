@@ -281,7 +281,7 @@
       <img x="10" y="154" w="300" h="225" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">list_bg_white2.png</img>
       <list j="1" x="10" y="154" w="300" h="225" headerSub="" titleSub="" contentSub="ListElement" footerSub="" orientation="v" l="0" swipedelete="0" />
       <img x="10" y="73" w="301" h="31" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">list_text_field.png</img>
-      <input j="11" s="11" x="10" y="73" w="301" h="31" pass="0" autoFocus="0" f="0" t="IPaddress" l="0">IP Address</input>
+      <input j="0" s="11" x="10" y="73" w="301" h="31" pass="0" autoFocus="0" f="2" t="IPaddress" l="0">IP Address</input>
       <txt j="0" x="0" y="100" w="320" h="52" t="Titles" wrap="False" l="0">or select a server from the list</txt>
       <txt j="0" x="0" y="20" w="320" h="50" t="Titles" wrap="True" l="0">Please enter your computer's IP address</txt>
       <btn j="0" x="9" y="401" w="302" h="45" t="RefreshList" flip="None" sim="1" l="0" s="1" js="performLookup()">
@@ -926,7 +926,7 @@
     <img x="0" y="0" w="300" h="56" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">list_item2.png</img>
     <img x="6" y="2" w="42" h="42" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">computer_icon.png</img>
     <txt j="10" x="53" y="0" w="208" h="56" t="ListText" wrap="False" l="0">Mouse Server</txt>
-    <btn j="10" x="0" y="0" w="300" h="56" t="TransparentButton" flip="None" sim="0" l="0" s="1">
+    <btn j="0" x="0" y="0" w="300" h="56" t="TransparentButton" flip="None" sim="0" l="0" s="1" js="onServerSelection(listIndex)">
       <inactive s="0">
       </inactive>
       <active s="0">
